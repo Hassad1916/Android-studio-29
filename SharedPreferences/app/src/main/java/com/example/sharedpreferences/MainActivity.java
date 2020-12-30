@@ -84,6 +84,7 @@ public class MainActivity extends AppCompatActivity {
                 name.setText("");
                 phone.setText("");
                 sex.setText("");
+                Toast.makeText(MainActivity.this, "Data Clean", Toast.LENGTH_SHORT).show();
             }
         });
     }
